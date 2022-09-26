@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4F199FA-1D21-4533-816E-5FB3780F757F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5C9A1CB4-83C9-40F4-930C-57EC94F1F65D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{9DBAD109-3198-4567-8FA4-E368B8F0EF6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopOnMicroservices.IdentityServer", "Services\Identity\eShopOnMicroservices.IdentityServer\eShopOnMicroservices.IdentityServer.csproj", "{79C26A6A-8461-414C-B217-119DDEEA47CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79C26A6A-8461-414C-B217-119DDEEA47CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C26A6A-8461-414C-B217-119DDEEA47CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C26A6A-8461-414C-B217-119DDEEA47CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C26A6A-8461-414C-B217-119DDEEA47CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C9A1CB4-83C9-40F4-930C-57EC94F1F65D} = {A4F199FA-1D21-4533-816E-5FB3780F757F}
+		{9DBAD109-3198-4567-8FA4-E368B8F0EF6E} = {5C9A1CB4-83C9-40F4-930C-57EC94F1F65D}
+		{79C26A6A-8461-414C-B217-119DDEEA47CE} = {9DBAD109-3198-4567-8FA4-E368B8F0EF6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0E9A3B9-60EA-4EEB-892A-5EE08F4E4649}
+	EndGlobalSection
+EndGlobal
