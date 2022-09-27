@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.PlatformAbstractions;
-using System.IO;
+﻿using System.IO;
 using System.Security.Cryptography.X509Certificates;
 
 namespace eShopOnMicroservices.IdentityServer.Security
@@ -15,8 +14,8 @@ namespace eShopOnMicroservices.IdentityServer.Security
         /// <returns></returns>
         public static X509Certificate2 Get()
         {
-            string basePath = PlatformServices.Default.Application.ApplicationBasePath;
-            string pfxPath = Path.Combine(basePath, "Security", "eShopOnMicroservices.pfx");
+            string currentDirectory = Path.GetDirectoryName(typeof(Program).Assembly.Location);
+            string pfxPath = Path.Combine(currentDirectory, "Security", "eShopOnMicroservices.pfx");
             return new X509Certificate2(pfxPath, "123456");
         }
     }

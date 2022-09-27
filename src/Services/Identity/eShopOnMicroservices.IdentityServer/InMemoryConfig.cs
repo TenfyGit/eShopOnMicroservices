@@ -10,7 +10,7 @@ namespace eShopOnMicroservices.IdentityServer
         {
             return new[]
             {
-                    new ApiResource("blog.core.api", "Blog.Core API")
+                    new ApiResource("Catalog.Api", "商品信息服务")
                     {
                         Scopes = { "scope1" }//不配置就返回invalid_scope
                     }

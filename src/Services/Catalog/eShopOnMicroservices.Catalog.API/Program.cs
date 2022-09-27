@@ -7,10 +7,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace eShopOnMicroservices.IdentityServer
+namespace eShopOnMicroservices.Catalog.Api
 {
     /// <summary>
-    /// 调试脚本：dotnet eShopOnMicroservices.IdentityServer.dll --urls=http://*:61110
+    /// 调试脚本：dotnet eShopOnMicroservices.Catalog.Api.dll --urls=http://*:61120
     /// </summary>
     public class Program
     {
